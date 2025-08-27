@@ -4,6 +4,7 @@
         "details": [{
             "appID": "P5S65XP9TU.com.chefmarket.ChefMarket",
             "paths": [
+                "/",
                 "/menus/",
                 "/orders/",
                 "/subscriptions"
