@@ -4,9 +4,17 @@
             "appID": "P5S65XP9TU.com.chefmarket.ChefMarket",
             "components": [
                 {
-                  "/": "/*",
-                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-               }
+                    "/": "*",
+                    "comment": "Matches homepage and all paths"
+                },
+                {
+                    "/dish/*": "*",
+                    "comment": "Matches dish pages"
+                },
+                {
+                    "/category/*": "*",
+                    "comment": "Matches category pages"
+                }
             ]
         }]
     }
