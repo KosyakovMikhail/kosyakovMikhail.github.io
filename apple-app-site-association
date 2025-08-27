@@ -8,13 +8,6 @@
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                }
             ]
-            "paths": [
-                "#",
-                "/menus/",
-                "/orders/",
-                "/subscriptions"
-                "/5dinners-balance"
-            ]
         }]
     }
 }
