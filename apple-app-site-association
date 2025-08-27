@@ -1,8 +1,14 @@
 {
     "applinks": {
-        "apps": [],
         "details": [{
             "appID": "P5S65XP9TU.com.chefmarket.ChefMarket",
+            "components": [
+                {
+                  "/": "*",
+                  "exclude": false,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               }
+            ]
             "paths": [
                 "#",
                 "/menus/",
